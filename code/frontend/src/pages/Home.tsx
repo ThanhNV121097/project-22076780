@@ -60,7 +60,7 @@ function Board() {
             width={1280}
             height={960}
             loading="eager"
-            className="h-[9.5rem] w-[112%] object-cover object-[50%_34%]"
+            className="h-[14rem] w-[112%] object-cover object-[50%_38%] lg:h-[19rem]"
           />
         </div>
         <div className="mt-[var(--space-6)] flex items-baseline justify-between gap-4 border-b border-ink pb-[var(--space-2)] pr-[var(--gutter)] lg:pr-[var(--gutter)]">
