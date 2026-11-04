@@ -20,7 +20,6 @@
       "sending": "Sending…",
       "sent": "Thank you — we have your message and will answer in shop hours."
     },
-    "heading": "Call, message or walk in",
     "hours": "8:00–21:00 every day",
     "phone": "024 3829 1188",
     "zalo": "024 3829 1188"
@@ -30,15 +29,6 @@
   },
   "footer": {
     "line": "Loose-leaf tea blended and sold at 58 Quán Thánh. We do not sell online — the teas are bought at the counter or over the phone."
-  },
-  "hero": {
-    "cta": {
-      "href": "#contact",
-      "label": "Get in touch"
-    },
-    "eyebrow": "",
-    "headline": "A headline of a few words",
-    "sub": "One line under it, and no more."
   },
   "home": {
     "board": {
@@ -60,7 +50,7 @@
     },
     "room": {
       "all": "All the photographs",
-      "heading": "Photographs",
+      "heading": "Inside the shop",
       "label": "The shop"
     },
     "where": {
@@ -70,10 +60,6 @@
     }
   },
   "nav": {
-    "cta": {
-      "href": "/visit",
-      "label": "Call the shop"
-    },
     "links": [
       {
         "href": "/teas",
@@ -154,7 +140,7 @@
       "weights": "Weights and prices"
     },
     "teas": {
-      "body": "Everything here is loose leaf, blended in the shop and weighed into the tin in front of you. The 250g tin keeps about three months once it is opened.",
+      "body": "Everything here is loose leaf, blended in the shop and weighed into the tin in front of you. Ring ahead and we will have a tin ready.",
       "count": " blends on the board",
       "description": "Lotus, jasmine and oolong, blended at 58 Quán Thánh and sold in 100g and 250g tins. Prices for every weight, and a pot at the table.",
       "heading": "The teas and what they cost",
