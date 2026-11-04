@@ -56,6 +56,10 @@ answer first: the one who wants the board, or the one who wants the room.
 - **Device a reviewer can point at:** the photograph bleeds the whole screen with a
   small-caps label set vertically up the left edge over it.
 
+CHOSEN: Prices on the board — half of this shop's customers already know the word they
+want (sen, 250g) and only need the weight, the price and the fact that it is open, so the
+site is built to work like the board behind the counter rather than a brochure.
+
 ## Notes
 
 - Prices shown on both pages are **sample prices** — the owner has not supplied a price
