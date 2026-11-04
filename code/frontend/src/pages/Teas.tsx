@@ -30,7 +30,7 @@ export default function Teas() {
           <CallButtons className="mt-[var(--space-6)]" />
         </div>
         <div className="min-w-0">
-          <div className="grid gap-[var(--space-6)] sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-[var(--space-6)] sm:grid-cols-3">
             {items.map((tea) => <TeaTile key={tea.id} tea={tea} />)}
           </div>
           {loading && <T k="pages.teas.loading" as="p" className="mt-[var(--space-6)] text-sm text-ink-soft" />}
