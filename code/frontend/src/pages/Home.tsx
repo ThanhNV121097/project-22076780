@@ -154,7 +154,7 @@ function Where() {
         </div>
         <Picture
           src="/images/corner.jpg"
-          alt="The street corner outside the shop"
+          alt="Hồ Tây at dusk, the lake the lotus comes from"
           width={1280}
           height={964}
           className="aspect-[16/9] w-full object-cover"
