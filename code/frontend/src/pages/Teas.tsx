@@ -14,7 +14,7 @@ import type { Pot, Tea } from "../lib/teas";
  */
 export default function Teas() {
   usePageMeta("pages.teas.title", "pages.teas.description");
-  const { items, total, hasMore, loading, loadMore } = useCollection<Tea>("teas", { pageSize: 6, sort: "name" });
+  const { items, total, hasMore, loading, loadMore } = useCollection<Tea>("teas", { pageSize: 6 });
   const { items: pots } = useCollection<Pot>("pots", { pageSize: 6 });
   return (
     <>
