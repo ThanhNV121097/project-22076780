@@ -1,21 +1,16 @@
-import { motion, useReducedMotion } from "framer-motion";
-import type { ReactNode } from "react";
+import type { CSSProperties, ReactNode } from "react";
 
 /**
- * A section as it enters: up 16px over 0.6s on the design's own easing, once.
- * With prefers-reduced-motion it simply is there — no fade, no movement.
+ * A section as it arrives: up 16px over 0.6s on the design's own easing,
+ * once. It is a CSS animation rather than a scroll-driven one on purpose —
+ * the end state is the plain, visible page, so nothing on this site can be
+ * left invisible by a listener that did not fire. prefers-reduced-motion
+ * turns it off in index.css.
  */
 export default function Reveal({ children, delay = 0, className = "" }: { children: ReactNode; delay?: number; className?: string }) {
-  const still = useReducedMotion();
-  if (still) return <div className={className}>{children}</div>;
   return (
-    <motion.div
-      className={className}
-      initial={{ opacity: 0, y: 16 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6, delay, ease: [0.22, 0.7, 0.21, 1] }}
-    >
+    <div className={`rise ${className}`} style={{ animationDelay: `${delay}s` } as CSSProperties}>
       {children}
-    </motion.div>
+    </div>
   );
 }
