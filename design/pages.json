@@ -1,0 +1,8 @@
+[
+  { "path": "/", "name": "Home" },
+  { "path": "/teas", "name": "The teas" },
+  { "path": "/teas/:id", "name": "One tea", "example": "/teas/tra-sen" },
+  { "path": "/gallery", "name": "Photographs" },
+  { "path": "/visit", "name": "Visit" },
+  { "path": "/about", "name": "The shop" }
+]

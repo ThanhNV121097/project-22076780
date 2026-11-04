@@ -1,3 +1,54 @@
 {
-  "collections": {}
+  "collections": {
+    "teas": {
+      "label": "The teas",
+      "fields": [
+        { "key": "name", "label": "Name", "type": "text" },
+        { "key": "english", "label": "In English", "type": "text" },
+        { "key": "note", "label": "What it is", "type": "longtext" },
+        { "key": "leaf", "label": "The leaf", "type": "text" },
+        { "key": "brewing", "label": "How we brew it", "type": "text" },
+        { "key": "image", "label": "The tin", "type": "image" },
+        { "key": "scene", "label": "A photograph of it", "type": "image" },
+        { "key": "price_100", "label": "100g tin", "type": "price", "currency": "VND" },
+        { "key": "price_250", "label": "250g tin", "type": "price", "currency": "VND" }
+      ]
+    },
+    "pots": {
+      "label": "A pot at the table",
+      "fields": [
+        { "key": "name", "label": "Name", "type": "text" },
+        { "key": "note", "label": "What comes with it", "type": "text" },
+        { "key": "price", "label": "Price a pot", "type": "price", "currency": "VND" }
+      ]
+    },
+    "gallery": {
+      "label": "Photographs",
+      "fields": [
+        { "key": "caption", "label": "Caption", "type": "text" },
+        { "key": "image", "label": "Photograph", "type": "image" }
+      ]
+    },
+    "story": {
+      "label": "The shop's story",
+      "fields": [
+        { "key": "heading", "label": "Heading", "type": "text" },
+        { "key": "body", "label": "The story", "type": "longtext" }
+      ]
+    },
+    "team": {
+      "label": "Who is behind it",
+      "fields": [
+        { "key": "name", "label": "Name", "type": "text" },
+        { "key": "role", "label": "What they do", "type": "text" }
+      ]
+    },
+    "testimonials": {
+      "label": "What customers say",
+      "fields": [
+        { "key": "quote", "label": "What they said", "type": "longtext" },
+        { "key": "who", "label": "Who said it", "type": "text" }
+      ]
+    }
+  }
 }

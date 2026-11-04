@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Find the price of a tin of lotus tea",
+    "steps": [
+      { "action": "open", "path": "/" },
+      { "action": "click", "selector": "[data-testid='nav-teas']" },
+      { "action": "expect", "selector": "[data-testid='price-tra-sen-250']", "text": "740.000" }
+    ]
+  },
+  {
+    "name": "Read one tea and its weights",
+    "steps": [
+      { "action": "open", "path": "/teas" },
+      { "action": "click", "selector": "[data-testid='tea-link-tra-sen']" },
+      { "action": "expect", "selector": "[data-testid='tea-price-250']", "text": "740.000" }
+    ]
+  },
+  {
+    "name": "Find the shop and its hours",
+    "steps": [
+      { "action": "open", "path": "/" },
+      { "action": "click", "selector": "[data-testid='nav-visit']" },
+      { "action": "expect", "selector": "[data-testid='visit-hours']", "text": "8:00" }
+    ]
+  },
+  {
+    "name": "Send the shop a message",
+    "steps": [
+      { "action": "open", "path": "/visit" },
+      { "action": "type", "selector": "#contact-name", "value": "Hà" },
+      { "action": "type", "selector": "#contact-reply_to", "value": "024 3829 1188" },
+      { "action": "type", "selector": "#contact-message", "value": "Do you have 250g of lotus tea today?" },
+      { "action": "expect", "selector": "[data-testid='contact-send']", "text": "Send" }
+    ]
+  },
+  {
+    "name": "Look at the photographs",
+    "steps": [
+      { "action": "open", "path": "/" },
+      { "action": "click", "selector": "[data-testid='nav-gallery']" },
+      { "action": "expect", "selector": "[data-testid='gallery-pour']" }
+    ]
+  },
+  {
+    "name": "Call the shop",
+    "steps": [
+      { "action": "open", "path": "/" },
+      { "action": "expect", "selector": "[data-testid='hero-call']", "text": "024 3829 1188" }
+    ]
+  }
+]

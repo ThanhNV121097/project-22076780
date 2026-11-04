@@ -1,0 +1,44 @@
+[
+  {
+    "id": "counter",
+    "caption": "The counter, and the tins behind it",
+    "image": "/images/gallery-counter.jpg",
+    "_source": "assumed",
+    "_picture": "stand-in"
+  },
+  {
+    "id": "pour",
+    "caption": "The first pour of a pot at the table",
+    "image": "/images/gallery-pour.jpg",
+    "_source": "assumed",
+    "_picture": "stand-in"
+  },
+  {
+    "id": "lotus",
+    "caption": "Lotus from the lake, for the trà sen",
+    "image": "/images/gallery-lotus.jpg",
+    "_source": "assumed",
+    "_picture": "stand-in"
+  },
+  {
+    "id": "leaves",
+    "caption": "Loose leaf, weighed by the scoop",
+    "image": "/images/gallery-leaves.jpg",
+    "_source": "assumed",
+    "_picture": "stand-in"
+  },
+  {
+    "id": "jasmine",
+    "caption": "Jasmine, open, the night it goes in",
+    "image": "/images/gallery-jasmine.jpg",
+    "_source": "assumed",
+    "_picture": "stand-in"
+  },
+  {
+    "id": "cups",
+    "caption": "Cups on the table by the window",
+    "image": "/images/gallery-cups.jpg",
+    "_source": "assumed",
+    "_picture": "stand-in"
+  }
+]
