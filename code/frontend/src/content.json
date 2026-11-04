@@ -1,61 +1,197 @@
 {
-  "site": {
-    "name": "Your business",
-    "logo": "",
-    "description": "One sentence on what the business is, for search results and shared links.",
-    "locale": "vi-VN"
-  },
-  "nav": {
-    "links": [
-      {
-        "label": "Home",
-        "href": "/"
-      }
-    ],
-    "cta": {
-      "label": "Get in touch",
-      "href": "#contact"
-    },
-    "menu": {
-      "open": "Open menu",
-      "close": "Close menu"
-    }
-  },
-  "hero": {
-    "eyebrow": "",
-    "headline": "A headline of a few words",
-    "sub": "One line under it, and no more.",
-    "cta": {
-      "label": "Get in touch",
-      "href": "#contact"
-    }
-  },
-  "footer": {
-    "line": "Your business · District 1, Saigon"
-  },
-  "credits": {
-    "label": "Photos"
+  "board": {
+    "w100": "100g tin",
+    "w250": "250g tin"
   },
   "contact": {
-    "heading": "Get in touch",
-    "phone": "",
-    "zalo": "",
-    "email": "",
-    "address": "",
-    "hours": "",
+    "address": "58 Quán Thánh, Ba Đình, Hà Nội",
     "dock": {
-      "call": "Call us",
-      "zalo": "Message us on Zalo"
+      "call": "Call the shop",
+      "zalo": "Message on Zalo"
     },
+    "email": "",
     "form": {
+      "fields": {},
+      "message": "What would you like to ask?",
       "name": "Your name",
+      "offline": "This form is not connected yet — please call or send a Zalo message instead.",
       "reply_to": "Phone or email",
-      "message": "Your message",
-      "send": "Send",
+      "send": "Send the message",
       "sending": "Sending…",
-      "sent": "Thank you — we have your message and will answer soon.",
-      "offline": "This form is not connected yet — call or message us instead.",
-      "fields": {}
+      "sent": "Thank you — we have your message and will answer in shop hours."
+    },
+    "heading": "Call, message or walk in",
+    "hours": "8:00–21:00 every day",
+    "phone": "024 3829 1188",
+    "zalo": "024 3829 1188"
+  },
+  "credits": {
+    "label": "Photographs"
+  },
+  "footer": {
+    "line": "Loose-leaf tea blended and sold at 58 Quán Thánh. We do not sell online — the teas are bought at the counter or over the phone."
+  },
+  "hero": {
+    "cta": {
+      "href": "#contact",
+      "label": "Get in touch"
+    },
+    "eyebrow": "",
+    "headline": "A headline of a few words",
+    "sub": "One line under it, and no more."
+  },
+  "home": {
+    "board": {
+      "all": "Every blend and how we brew it",
+      "heading": "The board",
+      "note": "Three blends · 100g and 250g"
+    },
+    "facts": {
+      "when": "Open",
+      "where": "Where"
+    },
+    "label": "58 Quán Thánh · Ba Đình, Hà Nội",
+    "lede": "We blend lotus, jasmine and oolong here and sell them by the tin. A few tables inside if you would rather drink a pot with us.",
+    "pots": {
+      "body": "Order a pot at one of the tables and we keep pouring while the leaf gives. Prices are per pot, not per cup.",
+      "count": " pots on the list",
+      "heading": "A pot, sat down",
+      "label": "At the table"
+    },
+    "room": {
+      "all": "All the photographs",
+      "heading": "Photographs",
+      "label": "The shop"
+    },
+    "where": {
+      "cta": "The map and the hours",
+      "heading": "On Quán Thánh, near the lake",
+      "label": "Finding us"
     }
+  },
+  "nav": {
+    "cta": {
+      "href": "/visit",
+      "label": "Call the shop"
+    },
+    "links": [
+      {
+        "href": "/teas",
+        "label": "The teas",
+        "testid": "nav-teas"
+      },
+      {
+        "href": "/gallery",
+        "label": "Photographs",
+        "testid": "nav-gallery"
+      },
+      {
+        "href": "/about",
+        "label": "The shop",
+        "testid": "nav-about"
+      },
+      {
+        "href": "/visit",
+        "label": "Visit",
+        "testid": "nav-visit"
+      }
+    ],
+    "menu": {
+      "close": "Close the menu",
+      "open": "Open the menu"
+    }
+  },
+  "pages": {
+    "about": {
+      "description": "Who blends the tea at 58 Quán Thánh, and what customers say about it.",
+      "heading": "The shop",
+      "label": "Who is behind it",
+      "said": {
+        "empty": "Waiting on the owner: words from real customers. We will not put sentences in anybody's mouth.",
+        "heading": "In our customers' words",
+        "label": "What customers say"
+      },
+      "story": {
+        "empty": "The owner is writing this. It will be the shop's own story — when it opened, and how the blending began.",
+        "heading": "How the shop started",
+        "label": "Our story"
+      },
+      "team": {
+        "empty": "Waiting on the owner: the names of the people who blend and sell the tea, and what each of them does.",
+        "heading": "The people here",
+        "label": "Who blends the tea"
+      },
+      "title": "The shop and the people in it — Trà Sen Hồ Tây"
+    },
+    "gallery": {
+      "body": "The counter, the tins, the first pour of a pot, and the lotus that goes into the trà sen.",
+      "count": " photographs",
+      "description": "The counter, the tables and the leaf at 58 Quán Thánh, Ba Đình.",
+      "heading": "Photographs",
+      "label": "The shop, the leaf and the lake",
+      "loading": "Loading…",
+      "showmore": "Show more photographs",
+      "title": "Photographs — Trà Sen Hồ Tây"
+    },
+    "notfound": {
+      "body": "The board, the photographs and the address are all a click away.",
+      "cta": "See the teas",
+      "description": "That page is not on this site.",
+      "heading": "That page is not here",
+      "label": "Not found",
+      "title": "Page not found — Trà Sen Hồ Tây"
+    },
+    "tea": {
+      "back": "Back to every blend",
+      "brewing": "How we brew it",
+      "label": "The blend",
+      "leaf": "The leaf",
+      "missing": {
+        "body": "The board has three: lotus, jasmine and oolong.",
+        "heading": "We do not have that blend"
+      },
+      "order": "We do not sell online. Call the shop and we will put a tin aside, or come and buy it at the counter.",
+      "weights": "Weights and prices"
+    },
+    "teas": {
+      "body": "Everything here is loose leaf, blended in the shop and weighed into the tin in front of you. The 250g tin keeps about three months once it is opened.",
+      "count": " blends on the board",
+      "description": "Lotus, jasmine and oolong, blended at 58 Quán Thánh and sold in 100g and 250g tins. Prices for every weight, and a pot at the table.",
+      "heading": "The teas and what they cost",
+      "label": "Three blends · 100g and 250g tins",
+      "loading": "Loading…",
+      "pots": {
+        "heading": "A pot at the table",
+        "label": "At the table",
+        "note": "Per pot, poured until the leaf gives out"
+      },
+      "showmore": "Show more blends",
+      "title": "The teas and their prices — Trà Sen Hồ Tây"
+    },
+    "visit": {
+      "address": "Address",
+      "description": "58 Quán Thánh, Ba Đình, Hà Nội. Open 8:00–21:00 every day. Call 024 3829 1188 or send a Zalo message.",
+      "form": {
+        "body": "Ask whether a blend is in, or have a tin put aside. We read messages during shop hours.",
+        "heading": "Send a message",
+        "label": "Or write to us"
+      },
+      "heading": "Where we are, and when",
+      "hours": "Opening hours",
+      "label": "Ba Đình, Hà Nội",
+      "map": {
+        "heading": "58 Quán Thánh",
+        "label": "On the map"
+      },
+      "phone": "Phone",
+      "title": "Visit, call or message us — Trà Sen Hồ Tây",
+      "zalo": "Zalo"
+    }
+  },
+  "site": {
+    "description": "A small tea shop at 58 Quán Thánh, Ba Đình. Lotus, jasmine and oolong blended here and sold in 100g and 250g tins, with a few tables for a pot.",
+    "locale": "vi-VN",
+    "logo": "",
+    "name": "Trà Sen Hồ Tây"
   }
 }
