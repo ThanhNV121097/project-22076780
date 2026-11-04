@@ -1,0 +1,44 @@
+[
+  {
+    "id": "tra-sen",
+    "name": "Trà sen",
+    "english": "Lotus",
+    "note": "Green tea laid in lotus flowers from the lake for seven nights, one flower at a time, until the leaf carries the scent on its own.",
+    "leaf": "Green leaf, loose, scented with lotus",
+    "brewing": "5g, water off the boil, four pours",
+    "image": "/images/tin-lotus.png",
+    "scene": "/images/gallery-lotus.jpg",
+    "price_100": 320000,
+    "price_250": 740000,
+    "_source": "assumed",
+    "_picture": "stand-in"
+  },
+  {
+    "id": "tra-nhai",
+    "name": "Trà nhài",
+    "english": "Jasmine",
+    "note": "Scented fresh each summer while the jasmine is open. The everyday pot in this shop, and the tin most people leave with.",
+    "leaf": "Green leaf, loose, scented with jasmine",
+    "brewing": "5g, water off the boil, three pours",
+    "image": "/images/tin-jasmine.png",
+    "scene": "/images/gallery-jasmine.jpg",
+    "price_100": 180000,
+    "price_250": 420000,
+    "_source": "assumed",
+    "_picture": "stand-in"
+  },
+  {
+    "id": "oolong",
+    "name": "Oolong",
+    "english": "Oolong",
+    "note": "Half-oxidised leaf, rolled tight. It stands up to five or six pours and keeps a month after the tin is opened.",
+    "leaf": "Rolled leaf, half-oxidised",
+    "brewing": "6g, water just boiled, six pours",
+    "image": "/images/tin-oolong-a.png",
+    "scene": "/images/gallery-leaves.jpg",
+    "price_100": 240000,
+    "price_250": 560000,
+    "_source": "assumed",
+    "_picture": "stand-in"
+  }
+]

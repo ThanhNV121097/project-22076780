@@ -1,0 +1,23 @@
+[
+  {
+    "id": "pot-sen",
+    "name": "A pot of trà sen",
+    "note": "At a table, as many pours as the leaf gives",
+    "price": 60000,
+    "_source": "assumed"
+  },
+  {
+    "id": "pot-nhai",
+    "name": "A pot of trà nhài",
+    "note": "At a table, as many pours as the leaf gives",
+    "price": 45000,
+    "_source": "assumed"
+  },
+  {
+    "id": "pot-oolong",
+    "name": "A pot of oolong",
+    "note": "At a table, as many pours as the leaf gives",
+    "price": 50000,
+    "_source": "assumed"
+  }
+]
