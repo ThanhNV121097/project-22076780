@@ -11,7 +11,7 @@ import type { Tea } from "../lib/teas";
  */
 export default function TeaTile({ tea }: { tea: Tea }) {
   return (
-    <article data-record={`teas:${tea.id}`} className="group flex flex-col">
+    <article data-record={`teas:${tea.id}`} className="group flex min-w-0 flex-col">
       <Link to={`/teas/${tea.id}`} data-testid={`tea-link-${tea.id}`} className="block">
         <ProductImage
           src={tea.image}
