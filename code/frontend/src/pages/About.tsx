@@ -32,8 +32,8 @@ export default function About() {
           <CallButtons className="mt-[var(--space-6)]" />
         </div>
         <Picture
-          src="/images/gallery-counter.jpg"
-          alt="Tea poured at the counter of 58 Quán Thánh"
+          src="/images/shop-hands.jpg"
+          alt="Loose leaf weighed out at the counter"
           width={1280}
           height={853}
           loading="eager"
