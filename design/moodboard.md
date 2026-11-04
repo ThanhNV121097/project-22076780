@@ -36,11 +36,12 @@ short load rise and a 16px rise as each section arrives; hover lifts a tin 2px. 
 nothing pinned.
 
 ## COMMITMENTS
-- The home page's leaf photograph bleeds off the right edge of the viewport.
-2. Prices are 34px tabular Archivo figures, right-aligned in a column of their own.
-3. The home page is a two-column board: a 340px left rail against the board filling the rest.
-4. Every heading and every price is Archivo 500, and all body text is Inter.
-5. An 11px small-caps label leads every section on every page.
-6. Every division on the page is a 1px hairline, with no cards and no shadows.
-7. The gallery is one column of full-width landscape photographs, each captioned on a hairline.
-8. One light palette: a cream ground with a single tea-leaf green accent, and no second mode.
+
+* The home page's leaf photograph bleeds off the right edge of the viewport.
+* Prices are 34px tabular Archivo figures, right-aligned in a column of their own.
+* The home page is a two-column board: a 340px left rail against the board filling the rest.
+* Every heading and every price is Archivo 500, and all body text is Inter.
+* An 11px small-caps label leads every section on every page.
+* Every division on the page is a 1px hairline, with no cards and no shadows.
+* The gallery is one column of full-width landscape photographs, each captioned on a hairline.
+* One light palette: a cream ground with a single tea-leaf green accent, and no second mode.
