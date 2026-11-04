@@ -29,11 +29,11 @@ export default function TeaTile({ tea }: { tea: Tea }) {
       <div className="mt-auto">
         <div className="flex items-baseline justify-between gap-3 border-b border-line py-[var(--space-3)]">
           <T k="board.w100" className="font-body text-[length:var(--size-label)] uppercase tracking-[var(--tracking-label)] text-ink-soft" />
-          <Price amount={tea.price_100} testId={`price-${tea.id}-100`} />
+          <Price amount={tea.price_100} board testId={`price-${tea.id}-100`} />
         </div>
         <div className="flex items-baseline justify-between gap-3 border-b border-line py-[var(--space-3)]">
           <T k="board.w250" className="font-body text-[length:var(--size-label)] uppercase tracking-[var(--tracking-label)] text-ink-soft" />
-          <Price amount={tea.price_250} soft testId={`price-${tea.id}-250`} />
+          <Price amount={tea.price_250} soft board testId={`price-${tea.id}-250`} />
         </div>
       </div>
     </article>
