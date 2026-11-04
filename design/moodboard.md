@@ -35,13 +35,13 @@ to carry goods and numbers, so the headline is small and the numerals are large.
 short load rise and a 16px rise as each section arrives; hover lifts a tin 2px. Native scrolling,
 nothing pinned.
 
-## COMMITMENTS
+COMMITMENTS
 
-- the home page's leaf photograph bleeds off the right edge of the viewport
-- prices are 34px tabular Archivo figures, right-aligned in a column of their own
-- the home page is a two-column board, a 340px left rail against the board filling the rest
-- every heading and every price is Archivo 500 and all body text is Inter
-- an 11px small-caps label leads every section on every page
-- every division on the page is a 1px hairline, with no cards and no shadows
-- the gallery is one column of full-width landscape photographs, each captioned on a hairline
-- one light palette, a cream ground with a single tea-leaf green accent, and no second mode
+1. The home page's leaf photograph bleeds off the right edge of the viewport.
+2. Prices are 34px tabular Archivo figures, right-aligned in a column of their own.
+3. The home page is a two-column board: a 340px left rail against the board filling the rest.
+4. Every heading and every price is Archivo 500, and all body text is Inter.
+5. An 11px small-caps label leads every section on every page.
+6. Every division on the page is a 1px hairline, with no cards and no shadows.
+7. The gallery is one column of full-width landscape photographs, each captioned on a hairline.
+8. One light palette: a cream ground with a single tea-leaf green accent, and no second mode.
