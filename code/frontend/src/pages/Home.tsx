@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import { T, useContent } from "../editable";
 import { useCollection } from "../data";
 import { Picture } from "../picture";
-import MapEmbed from "../components/MapEmbed";
 import Label from "../components/Label";
 import Price from "../components/Price";
 import Reveal from "../components/Reveal";
@@ -153,7 +152,13 @@ function Where() {
             <Icon name="arrow" size={16} />
           </Link>
         </div>
-        <MapEmbed className="aspect-[16/9] h-auto w-full" />
+        <Picture
+          src="/images/corner.jpg"
+          alt="The street corner outside the shop"
+          width={1280}
+          height={964}
+          className="aspect-[16/9] w-full object-cover"
+        />
       </section>
     </Reveal>
   );
