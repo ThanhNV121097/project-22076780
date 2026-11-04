@@ -66,7 +66,7 @@ export default function Visit() {
             <MapEmbed className="h-[30rem]" />
             <Picture
               src="/images/street.jpg"
-              alt="The street outside, on Quán Thánh"
+              alt="The street market near Quán Thánh"
               width={1280}
               height={854}
               className="h-[30rem] w-full object-cover"
