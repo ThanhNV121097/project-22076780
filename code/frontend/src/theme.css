@@ -30,7 +30,7 @@
   /* Prices are the largest numerals on the page. */
   --size-price: clamp(1.6rem, 2.4vw, 2.125rem);
   /* The same figures where three of them share a row of the board. */
-  --size-price-board: clamp(1.2rem, 1.5vw, 1.4rem);
+  --size-price-board: clamp(1rem, 1.25vw, 1.25rem);
   --size-label: 11px;
   --tracking-label: 0.16em;
 
