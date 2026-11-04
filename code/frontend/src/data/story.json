@@ -1,4 +1,20 @@
 [
-  { "id": "beginning", "heading": "", "body": "", "_source": "assumed" },
-  { "id": "blending", "heading": "", "body": "", "_source": "assumed" }
+  {
+    "id": "blending",
+    "heading": "We blend the tea ourselves",
+    "body": "Lotus, jasmine and oolong, blended in the shop and weighed into 100g and 250g tins at the counter.",
+    "_source": "owner"
+  },
+  {
+    "id": "tables",
+    "heading": "A few tables inside",
+    "body": "Sit down and drink a pot instead of taking a tin away. We keep pouring while the leaf gives.",
+    "_source": "owner"
+  },
+  {
+    "id": "counter",
+    "heading": "Bought at the counter",
+    "body": "We do not sell online. Come to 58 Quán Thánh any day between 8:00 and 21:00, or call and we will put a tin aside.",
+    "_source": "owner"
+  }
 ]
