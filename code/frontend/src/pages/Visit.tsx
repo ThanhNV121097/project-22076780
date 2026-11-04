@@ -25,6 +25,7 @@ export default function Visit() {
         <div>
           <Label k="pages.visit.label" />
           <T k="pages.visit.heading" as="h1" className="mt-[var(--space-3)] text-[length:var(--size-h1)]" />
+          <T k="pages.visit.body" as="p" className="mt-[var(--space-4)] max-w-[32ch] text-ink-soft" />
           <CallButtons className="mt-[var(--space-6)]" />
         </div>
         <dl className="min-w-0 border-t border-ink">
@@ -51,13 +52,16 @@ export default function Visit() {
         </dl>
       </section>
 
-      <Reveal className="mt-[var(--space-12)] px-[var(--gutter)]">
+      <Reveal className="mt-[var(--space-8)] px-[var(--gutter)]">
         <section>
-          <div className="border-b border-ink pb-[var(--space-2)]">
-            <Label k="pages.visit.map.label" />
-            <T k="pages.visit.map.heading" as="h2" className="mt-[var(--space-3)] text-[length:var(--size-h2)]" />
+          <div className="flex flex-wrap items-baseline justify-between gap-4 border-b border-ink pb-[var(--space-2)]">
+            <div>
+              <Label k="pages.visit.map.label" />
+              <T k="pages.visit.map.heading" as="h2" className="mt-[var(--space-3)] text-[length:var(--size-h2)]" />
+            </div>
+            <p className="text-sm text-ink-soft tabular-nums">{hours}</p>
           </div>
-          <MapEmbed className="mt-[var(--space-6)] h-[26rem]" />
+          <MapEmbed className="mt-[var(--space-6)] h-[30rem]" />
         </section>
       </Reveal>
 
