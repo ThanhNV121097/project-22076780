@@ -1,0 +1,338 @@
+/* Two direction pages, judged at 1440 and deleted when the owner has chosen.
+   Their colours are deliberately NOT theme.css's: theme.css holds the palette
+   of the direction that wins. Desktop only, on purpose. */
+
+/* ---- Direction 1 — Prices on the board (light) ---- */
+.d1 {
+  --d1-ground: #f4f1e8;
+  --d1-surface: #ffffff;
+  --d1-ink: #17180f;
+  --d1-soft: #5b5f4e;
+  --d1-accent: #1f5134;
+  --d1-line: rgba(23, 24, 15, 0.16);
+  min-height: 100vh;
+  background: var(--d1-ground);
+  color: var(--d1-ink);
+  font-family: "Archivo", system-ui, sans-serif;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 48px 0 48px 72px;
+  box-sizing: border-box;
+}
+.d1__grid {
+  display: grid;
+  grid-template-columns: 330px 1fr;
+  gap: 64px;
+  align-items: start;
+}
+.d1__eyebrow,
+.d1__tag,
+.d1__w {
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--d1-soft);
+}
+.d1__name {
+  margin: 18px 0 0;
+  font-size: 44px;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.d1__lede {
+  margin: 18px 0 0;
+  max-width: 30ch;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--d1-soft);
+  font-family: "Inter", sans-serif;
+}
+.d1__facts {
+  margin: 26px 0 0;
+  border-top: 1px solid var(--d1-line);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+.d1__fact {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--d1-line);
+}
+.d1__fact span:first-child {
+  color: var(--d1-soft);
+}
+.d1__fact span:last-child {
+  font-variant-numeric: tabular-nums;
+}
+.d1__actions {
+  margin-top: 24px;
+  display: flex;
+  gap: 10px;
+  font-family: "Inter", sans-serif;
+}
+.d1__call,
+.d1__zalo {
+  display: inline-block;
+  padding: 13px 20px;
+  font-size: 14px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.d1__call {
+  background: var(--d1-accent);
+  color: #ffffff;
+}
+.d1__zalo {
+  border: 1px solid var(--d1-ink);
+  color: var(--d1-ink);
+}
+.d1__leaf-wrap {
+  height: 168px;
+  overflow: hidden;
+  position: relative;
+}
+.d1__leaf {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 32%;
+  display: block;
+}
+.d1__board-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 22px 72px 10px 0;
+  border-bottom: 1px solid var(--d1-ink);
+}
+.d1__board-head h2 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+.d1__weights {
+  display: grid;
+  grid-template-columns: 150px 150px;
+  text-align: right;
+}
+.d1__row {
+  display: grid;
+  grid-template-columns: 92px 1fr 150px 150px;
+  gap: 24px;
+  align-items: center;
+  padding: 16px 72px 16px 0;
+  border-bottom: 1px solid var(--d1-line);
+}
+.d1__tin {
+  width: 92px;
+  height: 92px;
+  object-fit: contain;
+  display: block;
+}
+.d1__tea {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+.d1__note {
+  margin: 4px 0 0;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--d1-soft);
+  font-family: "Inter", sans-serif;
+  max-width: 34ch;
+}
+.d1__price {
+  text-align: right;
+  font-size: 34px;
+  line-height: 1;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+.d1__price--soft {
+  color: var(--d1-soft);
+}
+.d1__tag {
+  position: absolute;
+  left: 72px;
+  bottom: 18px;
+}
+
+/* ---- Direction 2 — A pot at the table (dark) ---- */
+.d2 {
+  --d2-ground: #14110e;
+  --d2-surface: #1f1a15;
+  --d2-ink: #f3eee4;
+  --d2-soft: #a99c8b;
+  --d2-accent: #d98ba0;
+  --d2-line: rgba(243, 238, 228, 0.14);
+  min-height: 100vh;
+  background: var(--d2-ground);
+  color: var(--d2-ink);
+  font-family: "Inter", sans-serif;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 352px;
+  box-sizing: border-box;
+}
+.d2__stage {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+.d2__bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 68% 42%;
+}
+.d2__scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(104deg, rgba(20, 17, 14, 0.94) 0%, rgba(20, 17, 14, 0.72) 42%, rgba(20, 17, 14, 0.12) 100%);
+}
+.d2__edge {
+  position: absolute;
+  left: 30px;
+  top: 54px;
+  writing-mode: vertical-rl;
+  font-size: 11px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--d2-soft);
+}
+.d2__words {
+  position: absolute;
+  left: 96px;
+  right: 72px;
+  bottom: 72px;
+}
+.d2__eyebrow {
+  margin: 0;
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--d2-accent);
+}
+.d2__h1 {
+  margin: 20px 0 0;
+  font-family: "Instrument Serif", Georgia, serif;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+  max-width: 17ch;
+}
+.d2__lede {
+  margin: 20px 0 0;
+  max-width: 44ch;
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--d2-ink);
+}
+.d2__actions {
+  margin-top: 28px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.d2__call,
+.d2__zalo {
+  display: inline-block;
+  padding: 14px 22px;
+  font-size: 14px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.d2__call {
+  background: var(--d2-accent);
+  color: #1a1310;
+}
+.d2__zalo {
+  border: 1px solid var(--d2-line);
+  color: var(--d2-ink);
+}
+.d2__rail {
+  background: var(--d2-surface);
+  padding: 54px 36px 48px;
+  display: flex;
+  flex-direction: column;
+}
+.d2__rail-head {
+  margin: 0 0 6px;
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--d2-soft);
+}
+.d2__item {
+  display: grid;
+  grid-template-columns: 76px 1fr;
+  gap: 18px;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--d2-line);
+}
+.d2__item-tin {
+  width: 76px;
+  height: 76px;
+  object-fit: contain;
+  display: block;
+}
+.d2__item h3 {
+  margin: 0;
+  font-family: "Instrument Serif", Georgia, serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.1;
+}
+.d2__item-prices {
+  margin: 6px 0 0;
+  display: flex;
+  gap: 14px;
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+  color: var(--d2-accent);
+}
+.d2__item-prices b {
+  font-weight: 400;
+  color: var(--d2-soft);
+  letter-spacing: 0.1em;
+  font-size: 11px;
+  text-transform: uppercase;
+  margin-right: 5px;
+}
+.d2__pot {
+  margin-top: auto;
+  padding-top: 22px;
+  font-size: 14px;
+  color: var(--d2-soft);
+}
+.d2__pot strong {
+  display: block;
+  margin-top: 4px;
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--d2-ink);
+  font-variant-numeric: tabular-nums;
+}
+.d2__tag {
+  position: absolute;
+  left: 30px;
+  bottom: 20px;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--d2-soft);
+}
