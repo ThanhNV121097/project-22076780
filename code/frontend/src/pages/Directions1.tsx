@@ -80,22 +80,29 @@ export default function Directions1() {
           </div>
           <div className="d1__board-head">
             <h2>{"Today's board"}</h2>
-            <div className="d1__weights">
-              <span className="d1__w">{"100g tin"}</span>
-              <span className="d1__w">{"250g tin"}</span>
-            </div>
+            <span className="d1__w">{"Three blends · 100g and 250g tins"}</span>
           </div>
-          {TEAS.map((t) => (
-            <article className="d1__row" key={t.name}>
-              <img className="d1__tin" src={t.src} alt={t.alt} width={400} height={400} />
-              <div>
-                <h3 className="d1__tea">{t.name}</h3>
-                <p className="d1__note">{t.note}</p>
-              </div>
-              <div className="d1__price">{t.p100}</div>
-              <div className="d1__price d1__price--soft">{t.p250}</div>
-            </article>
-          ))}
+          <div className="d1__board">
+            {TEAS.map((t) => (
+              <article className="d1__row" key={t.name}>
+                <img className="d1__tin" src={t.src} alt={t.alt} width={400} height={400} />
+                <div className="d1__words">
+                  <h3 className="d1__tea">{t.name}</h3>
+                  <p className="d1__note">{t.note}</p>
+                </div>
+                <div className="d1__prices">
+                  <div className="d1__pline">
+                    <span className="d1__w">{"100g"}</span>
+                    <span className="d1__price">{t.p100}</span>
+                  </div>
+                  <div className="d1__pline">
+                    <span className="d1__w">{"250g"}</span>
+                    <span className="d1__price d1__price--soft">{t.p250}</span>
+                  </div>
+                </div>
+              </article>
+            ))}
+          </div>
         </main>
       </div>
       <span className="d1__tag">{"Direction 1 — Prices on the board"}</span>
