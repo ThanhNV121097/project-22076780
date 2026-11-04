@@ -93,17 +93,17 @@
       "heading": "The shop",
       "label": "Who is behind it",
       "said": {
-        "empty": "Waiting on the owner: words from real customers. We will not put sentences in anybody's mouth.",
+        "empty": "",
         "heading": "In our customers' words",
         "label": "What customers say"
       },
       "story": {
-        "empty": "The owner is writing this. It will be the shop's own story — when it opened, and how the blending began.",
+        "empty": "",
         "heading": "How the shop started",
         "label": "Our story"
       },
       "team": {
-        "empty": "Waiting on the owner: the names of the people who blend and sell the tea, and what each of them does.",
+        "empty": "",
         "heading": "The people here",
         "label": "Who blends the tea"
       },
