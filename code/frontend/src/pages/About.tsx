@@ -32,10 +32,10 @@ export default function About() {
           <CallButtons className="mt-[var(--space-6)]" />
         </div>
         <Picture
-          src="/images/gallery-cups.jpg"
-          alt="Cups on the table by the window at 58 Quán Thánh"
+          src="/images/gallery-counter.jpg"
+          alt="Tea poured at the counter of 58 Quán Thánh"
           width={1280}
-          height={691}
+          height={853}
           loading="eager"
           className="aspect-[16/9] w-full object-cover"
         />
