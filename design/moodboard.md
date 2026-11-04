@@ -35,9 +35,8 @@ to carry goods and numbers, so the headline is small and the numerals are large.
 short load rise and a 16px rise as each section arrives; hover lifts a tin 2px. Native scrolling,
 nothing pinned.
 
-COMMITMENTS
-
-1. The home page's leaf photograph bleeds off the right edge of the viewport.
+## COMMITMENTS
+- The home page's leaf photograph bleeds off the right edge of the viewport.
 2. Prices are 34px tabular Archivo figures, right-aligned in a column of their own.
 3. The home page is a two-column board: a 340px left rail against the board filling the rest.
 4. Every heading and every price is Archivo 500, and all body text is Inter.
