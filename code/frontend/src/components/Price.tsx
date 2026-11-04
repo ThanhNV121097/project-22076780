@@ -17,7 +17,7 @@ export default function Price({ amount, soft = false, board = false, testId, cla
   return (
     <span
       data-testid={testId}
-      className={`block font-display ${size} leading-none tracking-[var(--tracking-display)] tabular-nums text-right ${soft ? "text-ink-soft" : "text-ink"} ${className}`}
+      className={`block shrink-0 whitespace-nowrap font-display ${size} leading-none tracking-[var(--tracking-display)] tabular-nums text-right ${soft ? "text-ink-soft" : "text-ink"} ${className}`}
     >
       {formatPrice(amount)}
     </span>
