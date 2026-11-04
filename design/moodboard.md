@@ -37,11 +37,11 @@ section enters; hover underlines a row and lifts its tin 2px. Native scrolling, 
 
 ## COMMITMENTS
 
-1. The home page's leaf photograph bleeds off the right edge of the viewport — it is not stopped by the page container.
-2. Prices are 34px tabular Archivo figures, right-aligned in a column of their own, the largest numerals on the page.
-3. The home page is a two-column board: a 340px left rail (name, street, hours, call button) against the board filling the rest; that rail is the page's one main edge.
-4. Every heading and every price on every page is Archivo 500; all body text is Inter.
-5. An 11px small-caps label with 0.16em letterspacing leads every section on every page, above its heading.
-6. Every division on the page is a 1px hairline on `--line` — no cards, no rounded panels, no shadows anywhere on the site.
-7. The gallery is one column of full-width landscape photographs at 1440, caption on a hairline beneath each — never a three-card row.
-8. One light palette only: `#F4F1E8` ground with a single `#1F5134` accent, in `:root`, with no second mode declared anywhere.
+- The home page's leaf photograph bleeds off the right edge of the viewport — it is not stopped by the page container.
+- Prices are 34px tabular Archivo figures, right-aligned in a column of their own, the largest numerals on the page.
+- The home page is a two-column board: a 340px left rail (name, street, hours, call button) against the board filling the rest; that rail is the page's one main edge.
+- Every heading and every price on every page is Archivo 500; all body text is Inter.
+- An 11px small-caps label with 0.16em letterspacing leads every section on every page, above its heading.
+- Every division on the page is a 1px hairline on `--line` — no cards, no rounded panels, no shadows anywhere on the site.
+- The gallery is one column of full-width landscape photographs at 1440, caption on a hairline beneath each — never a three-card row.
+- One light palette only: `#F4F1E8` ground with a single `#1F5134` accent, in `:root`, with no second mode declared anywhere.
