@@ -27,13 +27,13 @@ export default function TeaTile({ tea }: { tea: Tea }) {
         </div>
       </Link>
       <div className="mt-auto">
-        <div className="flex items-baseline justify-between gap-3 border-b border-line py-[var(--space-3)]">
-          <T k="board.w100" className="min-w-0 truncate font-body text-[length:var(--size-label)] uppercase tracking-[var(--tracking-label)] text-ink-soft" />
-          <Price amount={tea.price_100} testId={`price-${tea.id}-100`} />
+        <div className="border-b border-line py-[var(--space-3)]">
+          <T k="board.w100" className="font-body text-[length:var(--size-label)] uppercase tracking-[var(--tracking-label)] text-ink-soft" />
+          <Price amount={tea.price_100} testId={`price-${tea.id}-100`} className="mt-[var(--space-1)]" />
         </div>
-        <div className="flex items-baseline justify-between gap-3 border-b border-line py-[var(--space-3)]">
-          <T k="board.w250" className="min-w-0 truncate font-body text-[length:var(--size-label)] uppercase tracking-[var(--tracking-label)] text-ink-soft" />
-          <Price amount={tea.price_250} soft testId={`price-${tea.id}-250`} />
+        <div className="border-b border-line py-[var(--space-3)]">
+          <T k="board.w250" className="font-body text-[length:var(--size-label)] uppercase tracking-[var(--tracking-label)] text-ink-soft" />
+          <Price amount={tea.price_250} soft testId={`price-${tea.id}-250`} className="mt-[var(--space-1)]" />
         </div>
       </div>
     </article>
