@@ -19,7 +19,9 @@ import type { Pot, Photograph, Tea } from "../lib/teas";
 export default function Home() {
   return (
     <>
-      <Board />
+      <Reveal>
+        <Board />
+      </Reveal>
       <Pots />
       <Room />
       <Where />
