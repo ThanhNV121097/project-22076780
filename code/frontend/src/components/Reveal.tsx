@@ -12,8 +12,7 @@ export default function Reveal({ children, delay = 0, className = "" }: { childr
     <motion.div
       className={className}
       initial={{ opacity: 0, y: 16 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0, margin: "240px" }}
+      animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, delay, ease: [0.22, 0.7, 0.21, 1] }}
     >
       {children}
