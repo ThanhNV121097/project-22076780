@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import { T, useList, useContent } from "./editable";
 import Home from "./pages/Home";
+import Directions1 from "./pages/Directions1";
+import Directions2 from "./pages/Directions2";
 import Logo from "./components/Logo";
 import MenuToggle from "./components/MenuToggle";
 import ContactDock from "./components/ContactDock";
@@ -20,6 +22,19 @@ import PhotoCredits from "./components/PhotoCredits";
  * <PhotoCredits/>: the stock photos' credits, which their licences ask for.
  */
 export default function App() {
+  return (
+    <Routes>
+      {/* The direction pages the owner chooses from: outside the shell, so no
+          placeholder header or footer is drawn over a palette being judged.
+          Both go when the choice is made. */}
+      <Route path="/directions-1" element={<Directions1 />} />
+      <Route path="/directions-2" element={<Directions2 />} />
+      <Route path="*" element={<Shell />} />
+    </Routes>
+  );
+}
+
+function Shell() {
   const links = useList<{ label: string; href: string }>("nav.links");
   const name = useContent("site.name");
   // The CTA's own target, from content.json. It used to be href="#contact"
