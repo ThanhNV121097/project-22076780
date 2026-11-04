@@ -1,0 +1,17 @@
+cache
+# Node
+node_modules/
+dist/
+
+# Env
+.env
+.env.local
+.env.deploy
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
