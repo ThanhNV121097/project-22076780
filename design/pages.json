@@ -1,4 +1,8 @@
 [
-  { "path": "/directions-1", "name": "Prices on the board" },
-  { "path": "/directions-2", "name": "A pot at the table" }
+  { "path": "/", "name": "Home" },
+  { "path": "/teas", "name": "The teas" },
+  { "path": "/teas/:id", "name": "One tea", "example": "/teas/tra-sen" },
+  { "path": "/gallery", "name": "Photographs" },
+  { "path": "/visit", "name": "Visit" },
+  { "path": "/about", "name": "The shop" }
 ]
