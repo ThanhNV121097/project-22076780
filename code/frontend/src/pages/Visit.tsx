@@ -1,5 +1,6 @@
 import { T, useContent } from "../editable";
 import { usePageMeta } from "../seo";
+import { Picture } from "../picture";
 import Label from "../components/Label";
 import Reveal from "../components/Reveal";
 import CallButtons from "../components/CallButtons";
