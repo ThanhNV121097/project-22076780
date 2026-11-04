@@ -61,7 +61,16 @@ export default function Visit() {
             </div>
             <p className="text-sm text-ink-soft tabular-nums">{hours}</p>
           </div>
-          <MapEmbed className="mt-[var(--space-6)] h-[30rem]" />
+          <div className="mt-[var(--space-6)] grid gap-[var(--space-6)] lg:grid-cols-[1fr_340px]">
+            <MapEmbed className="h-[30rem]" />
+            <Picture
+              src="/images/street.jpg"
+              alt="The street outside, on Quán Thánh"
+              width={1280}
+              height={854}
+              className="h-[30rem] w-full object-cover"
+            />
+          </div>
         </section>
       </Reveal>
 
