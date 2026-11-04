@@ -66,7 +66,7 @@ export default function Visit() {
             <MapEmbed className="h-[30rem]" />
             <Picture
               src="/images/street.jpg"
-              alt="The street market near Quán Thánh"
+              alt="Tea bushes in leaf, the kind of garden the loose leaf comes from"
               width={1280}
               height={854}
               className="h-[30rem] w-full object-cover"
