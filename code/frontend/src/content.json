@@ -121,7 +121,7 @@
         "heading": "The people here",
         "label": "Who blends the tea"
       },
-      "title": "The shop and the people in it — Trà Sen Hồ Tây"
+      "title": "The shop and the people in it"
     },
     "gallery": {
       "body": "The counter, the tins, the first pour of a pot, and the lotus that goes into the trà sen.",
@@ -131,7 +131,7 @@
       "label": "The shop, the leaf and the lake",
       "loading": "Loading…",
       "showmore": "Show more photographs",
-      "title": "Photographs — Trà Sen Hồ Tây"
+      "title": "Photographs"
     },
     "notfound": {
       "body": "The board, the photographs and the address are all a click away.",
@@ -139,7 +139,7 @@
       "description": "That page is not on this site.",
       "heading": "That page is not here",
       "label": "Not found",
-      "title": "Page not found — Trà Sen Hồ Tây"
+      "title": "Page not found"
     },
     "tea": {
       "back": "Back to every blend",
@@ -166,10 +166,11 @@
         "note": "Per pot, poured until the leaf gives out"
       },
       "showmore": "Show more blends",
-      "title": "The teas and their prices — Trà Sen Hồ Tây"
+      "title": "The teas and their prices"
     },
     "visit": {
       "address": "Address",
+      "body": "We are on Quán Thánh between the lake and the citadel, open every day of the week. Ring before you come and we will have the tin weighed out.",
       "description": "58 Quán Thánh, Ba Đình, Hà Nội. Open 8:00–21:00 every day. Call 024 3829 1188 or send a Zalo message.",
       "form": {
         "body": "Ask whether a blend is in, or have a tin put aside. We read messages during shop hours.",
@@ -184,7 +185,7 @@
         "label": "On the map"
       },
       "phone": "Phone",
-      "title": "Visit, call or message us — Trà Sen Hồ Tây",
+      "title": "Visit, call or message us",
       "zalo": "Zalo"
     }
   },
